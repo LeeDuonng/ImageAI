@@ -12,7 +12,7 @@ import 'package:path/path.dart' as xp;
 
 import '../handlers/app_directory_cubit.dart';
 import '../screen/strings.dart';
-import '../screen/custom_drawer.dart';
+import '../screen/information.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -98,7 +98,7 @@ class _HomePageState extends State<HomePage> {
       create: (context) => _imageCubit,
       child: Scaffold(
         key: scaffoldKey,
-        drawer: const CustomDrawer(),
+        drawer: const Info(),
         appBar: AppBar(
           actions: [
             InkWell(

@@ -4,8 +4,8 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../screen/about_page.dart';
 
-class CustomDrawer extends StatelessWidget {
-  const CustomDrawer({Key? key}) : super(key: key);
+class Info extends StatelessWidget {
+  const Info({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
